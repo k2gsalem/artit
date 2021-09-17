@@ -35,10 +35,10 @@ class PostTransformer extends TransformerAbstract
             'sold_datetime' => (string)$model->sold_datetime,
             'post_amount_received' => (string)$model->post_amount_received,
             'status' => (string)$model->status,
-            'bank_name' => (string)$model->bank_name,
-            'account_name' => (string)$model->account_name,
-            'account_number' => (string)$model->account_number,
-            'ifsc_code' => (string)$model->ifsc_code,
+            // 'bank_name' => (string)$model->bank_name,
+            // 'account_name' => (string)$model->account_name,
+            // 'account_number' => (string)$model->account_number,
+            // 'ifsc_code' => (string)$model->ifsc_code,
             'created_at' => (string)$model->created_at,
         ];
     }
